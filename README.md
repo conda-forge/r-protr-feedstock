@@ -1,11 +1,11 @@
-About r-protr
-=============
+About r-protr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-protr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://nanx.me/protr/, https://github.com/nanxstats/protr, http://protr.org
 
 Package license: BSD_3_clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-protr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Comprehensive toolkit for generating various numerical features of protein sequences described in Xiao et al. (2015) <DOI:10.1093/bioinformatics/btv042>. For full functionality, the software 'ncbi-blast+' is needed, see <https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download> for more information.
 
