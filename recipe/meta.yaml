@@ -1,4 +1,4 @@
-{% set version = "1.6-3" %}
+{% set version = "1.7-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/protr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/protr/protr_{{ version }}.tar.gz
-  sha256: d3eed30f31e907f9feca5562e1f1e97fc82fa68936df6fccf6e3e6db9041bd49
+  sha256: 44c22a7fbe169496f2bf3d25ac27044da36d746fcf1bb4f5424461d17abc6741
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://nanx.me/protr/, https://github.com/nanxstats/protr, http://protr.org
-  license: BSD_3_clause
+  license: BSD-3-Clause
   summary: Comprehensive toolkit for generating various numerical features of protein sequences described in Xiao et al. (2015) <DOI:10.1093/bioinformatics/btv042>. For full functionality, the software 'ncbi-blast+' is needed, see <https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download> for more information.
   license_family: BSD
   license_file:
