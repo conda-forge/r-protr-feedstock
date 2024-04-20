@@ -1,4 +1,4 @@
-{% set version = "1.7-0" %}
+{% set version = "1.7-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/protr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/protr/protr_{{ version }}.tar.gz
-  sha256: 44c22a7fbe169496f2bf3d25ac27044da36d746fcf1bb4f5424461d17abc6741
+  sha256: 877a0f9ce6b71379de4b1a31f52f46758549c1ee42a6586db555d003e45c53b5
 
 build:
   merge_build_host: true  # [win]
