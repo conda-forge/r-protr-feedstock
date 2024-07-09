@@ -1,6 +1,5 @@
 {% set version = "1.7-1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-protr
@@ -13,8 +12,7 @@ source:
   sha256: 877a0f9ce6b71379de4b1a31f52f46758549c1ee42a6586db555d003e45c53b5
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
