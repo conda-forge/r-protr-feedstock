@@ -1,4 +1,4 @@
-{% set version = "1.7-2" %}
+{% set version = "1.7-3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/protr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/protr/protr_{{ version }}.tar.gz
-  sha256: a5c3ca3f0f57f837f2b86a0d6daff5ab45dd8e87f04f86dfdc25373b0d4c7762
+  sha256: f06b4f8554d6acbf6ee8a5bf69f992719a4eed645e44c1e7ad59534c1ee3ed34
 
 build:
   number: 0
